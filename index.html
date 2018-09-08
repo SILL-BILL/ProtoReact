@@ -16,8 +16,17 @@
 <!-- css -->
 
 <!-- scripts -->
+<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script><!-- react.js -->
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script><!-- react.js -->
+
 </head>
-Hello World.
 <body>
+	<div id="root"></div>
+	<script type="text/babel">
+		ReactDOM.render(
+			<h1>Hello, world!</h1>,
+			document.getElementById('root')
+		);
+	</script>
 </body>
 </html>
